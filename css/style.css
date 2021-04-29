@@ -69,7 +69,7 @@ li {
 }
 .text-wraper {
 	width: 468px;
-	background-color: grey;
+	
 }
 .container {
 	width: 1171px;
@@ -78,7 +78,11 @@ li {
 .block {
 	width: 371px;
 	height:  374px;
-	background-color: lightblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
 }
 .title-section {
 	text-align: center;
@@ -91,4 +95,17 @@ li {
 	display: flex;
 	justify-content: space-between;
 	margin-top: 30px;
+}
+.block p {
+	width: 250px;
+	text-align: center;
+}
+.icon-block {
+	width: 88px;
+	height: 88px;
+	background-color: #325DFF;
+	border-radius:  50px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
