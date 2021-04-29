@@ -55,13 +55,40 @@ li {
 	font-family: 'Lato', sans-serif;
 	width: 468px;
 }
+.text2 {
+	margin: 30px 0;
+}
 .button {
 	width: 307px;
 	height:72px;
 	background-color: #325DFF;
 	border-radius: 36px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
 .text-wraper {
 	width: 468px;
 	background-color: grey;
+}
+.container {
+	width: 1171px;
+	margin: 0 auto;
+}
+.block {
+	width: 371px;
+	height:  374px;
+	background-color: lightblue;
+}
+.title-section {
+	text-align: center;
+}
+.line-1{
+	display: flex;
+	justify-content: space-between;
+}
+.line-2{
+	display: flex;
+	justify-content: space-between;
+	margin-top: 30px;
 }
