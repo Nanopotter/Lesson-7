@@ -45,6 +45,7 @@ li {
 	display: flex;
 	justify-content: center;
 	align-items: center;
+	flex-direction: column;
 }
 .block-wraper {
 	display: flex;
@@ -52,10 +53,15 @@ li {
 .text1 {
 	font-size: 50px;
 	font-family: 'Lato', sans-serif;
+	width: 468px;
 }
 .button {
 	width: 307px;
 	height:72px;
 	background-color: #325DFF;
 	border-radius: 36px;
+}
+.text-wraper {
+	width: 468px;
+	background-color: grey;
 }
